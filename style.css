@@ -24,6 +24,7 @@ p{
     font-size: 30px;
     line-height: 25px;
     text-shadow: 1px 1px 1px var(--sombratxt);
+    padding: 8px 24px;
     
 }
 body{
