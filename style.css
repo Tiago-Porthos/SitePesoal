@@ -1,10 +1,12 @@
 :root {
-    --jazzberry-jam: #950952ff;
+    --jazzberry-jam: #58FCECff;
     --letra: #0DAB8Eff;
     --fundo: #92DCE5ff;
     --verde: #38023Bff;
     --letrat: #39A0EDff;
-    --fundotst: #129490ff;
+    --fundotst: #9D8DF1ff;
+    --sombratxt: #12355Bff;
+    --sombra2: #420039ff;
 }
 
 h1{
@@ -21,6 +23,7 @@ p{
     color: var(--letra);
     font-size: 30px;
     line-height: 25px;
+    text-shadow: 1px 1px 1px var(--sombratxt);
     
 }
 body{
@@ -60,5 +63,11 @@ body{
     }
 
 .borda{
+    text-shadow: 2px 2px 1px var(--sombra2);
     border : 2px dashed var(--fundotst);
+    
+}
+
+.text-shadow{
+    text-shadow: 2px 2px 1px var(--jazzberry-jam);
 }
