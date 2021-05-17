@@ -1,10 +1,10 @@
 :root {
     --jazzberry-jam: #950952ff;
-    --letra: #251351ff;
-    --fundo: #81EFA8ff;
+    --letra: #E94481ff;
+    --fundo: #F8BDC4ff;
     --verde: #38023Bff;
-    --letrat: #172815ff;
-    --fundotst: #9067C6ff;
+    --letrat: #EC0868ff;
+    --fundotst: #C200FBff;
 }
 
 h1{
@@ -58,3 +58,7 @@ body{
 .card{
     margin: 0px 4px;
     }
+
+.borda{
+    border : 2px dashed var(--fundotst);
+}
