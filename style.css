@@ -24,12 +24,12 @@ p{
     font-size: 30px;
     line-height: 25px;
     text-shadow: 1px 1px 1px var(--sombratxt);
-    padding: 8px 24px;
+    
     
 }
 body{
  background-repeat: none;
- background-size: 130%;
+ background-size: 120%;
  background-color: var(--fundo);
  padding: 50px 0px 0px 0px;
  
@@ -51,7 +51,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 48px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
     }
 
 
@@ -64,11 +64,14 @@ body{
     }
 
 .borda{
-    text-shadow: 2px 2px 1px var(--sombra2);
     border : 2px dashed var(--fundotst);
     
 }
 
 .text-shadow{
     text-shadow: 2px 2px 1px var(--jazzberry-jam);
+}
+
+.textalinhamento{
+    padding: 8px 24px;
 }
